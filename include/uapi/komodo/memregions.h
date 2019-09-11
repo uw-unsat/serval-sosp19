@@ -1,0 +1,9 @@
+#pragma once
+
+#define KOM_PAGE_SIZE           0x1000
+
+#define KOM_SECURE_RESERVE      (1 * 1024 * 4096)
+#define KOM_SECURE_NPAGES       (KOM_SECURE_RESERVE / KOM_PAGE_SIZE)
+
+#define KOM_INSECURE_RESERVE    (1 * 1024 * 1024)
+#define KOM_INSECURE_NPAGES     (KOM_INSECURE_RESERVE / KOM_PAGE_SIZE)

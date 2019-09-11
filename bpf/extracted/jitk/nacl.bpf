@@ -1,0 +1,84 @@
+; https://chromium.googlesource.com/native_client/src/native_client/+/master/src/trusted/seccomp_bpf/seccomp_bpf.c
+l0:	ld [4]
+l1:	jeq #0xc000003e, l3, l2
+l2:	ret #0
+l3:	ld [0]
+l4:	jeq #0xf, l5, l6
+l5:	ret #0x7fff0000
+l6:	jeq #0xba, l7, l8
+l7:	ret #0x7fff0000
+l8:	jeq #0xe7, l9, l10
+l9:	ret #0x7fff0000
+l10:	jeq #0x3c, l11, l12
+l11:	ret #0x7fff0000
+l12:	jeq #0, l13, l14
+l13:	ret #0x7fff0000
+l14:	jeq #0x1, l15, l16
+l15:	ret #0x7fff0000
+l16:	jeq #0xc, l17, l18
+l17:	ret #0x7fff0000
+l18:	jeq #0x9, l19, l20
+l19:	ret #0x7fff0000
+l20:	jeq #0xb, l21, l22
+l21:	ret #0x7fff0000
+l22:	jeq #0xa, l23, l24
+l23:	ret #0x7fff0000
+l24:	jeq #0x11, l25, l26
+l25:	ret #0x7fff0000
+l26:	jeq #0x12, l27, l28
+l27:	ret #0x7fff0000
+l28:	jeq #0x9a, l29, l30
+l29:	ret #0x7fff0000
+l30:	jeq #0x38, l31, l32
+l31:	ret #0x7fff0000
+l32:	jeq #0x49, l33, l34
+l33:	ret #0x7fff0000
+l34:	jeq #0x111, l35, l36
+l35:	ret #0x7fff0000
+l36:	jeq #0x35, l37, l38
+l37:	ret #0x7fff0000
+l38:	jeq #0x3, l39, l40
+l39:	ret #0x7fff0000
+l40:	jeq #0x20, l41, l42
+l41:	ret #0x7fff0000
+l42:	jeq #0x21, l43, l44
+l43:	ret #0x7fff0000
+l44:	jeq #0xd, l45, l46
+l45:	ret #0x7fff0000
+l46:	jeq #0xca, l47, l48
+l47:	ret #0x7fff0000
+l48:	jeq #0xe5, l49, l50
+l49:	ret #0x7fff0000
+l50:	jeq #0x23, l51, l52
+l51:	ret #0x7fff0000
+l52:	jeq #0xc9, l53, l54
+l53:	ret #0x7fff0000
+l54:	jeq #0x64, l55, l56
+l55:	ret #0x7fff0000
+l56:	jeq #0xe4, l57, l58
+l57:	ret #0x7fff0000
+l58:	jeq #0x60, l59, l60
+l59:	ret #0x7fff0000
+l60:	jeq #0x5, l61, l62
+l61:	ret #0x7fff0000
+l62:	jeq #0x4, l63, l64
+l63:	ret #0x7fff0000
+l64:	jeq #0x2e, l65, l66
+l65:	ret #0x7fff0000
+l66:	jeq #0x2f, l67, l68
+l67:	ret #0x7fff0000
+l68:	jeq #0x83, l69, l70
+l69:	ret #0x7fff0000
+l70:	jeq #0x1c, l71, l72
+l71:	ret #0x7fff0000
+l72:	jeq #0x3c, l73, l74
+l73:	ret #0x7fff0000
+l74:	jeq #0x18, l75, l76
+l75:	ret #0x7fff0000
+l76:	jeq #0xcc, l77, l78
+l77:	ret #0x7fff0000
+l78:	jeq #0xea, l79, l80
+l79:	ret #0x7fff0000
+l80:	jeq #0xe, l81, l82
+l81:	ret #0x7fff0000
+l82:	ret #0x30000

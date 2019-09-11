@@ -1,0 +1,216 @@
+; https://hg.mozilla.org/mozilla-central/file/fcf19894d9f3/security/sandbox/linux/SandboxFilter.cpp
+l0:	ld [4]
+l1:	jeq #0xc000003e, l3, l2
+l2:	ret #0
+l3:	ld [0]
+l4:	jeq #0xca, l5, l6
+l5:	ret #0x7fff0000
+l6:	jeq #0x2f, l7, l8
+l7:	ret #0x7fff0000
+l8:	jeq #0x2e, l9, l10
+l9:	ret #0x7fff0000
+l10:	jeq #0x9, l11, l12
+l11:	ret #0x7fff0000
+l12:	jeq #0, l13, l14
+l13:	ret #0x7fff0000
+l14:	jeq #0x1, l15, l16
+l15:	ret #0x7fff0000
+l16:	jeq #0x8, l17, l18
+l17:	ret #0x7fff0000
+l18:	jeq #0x4d, l19, l20
+l19:	ret #0x7fff0000
+l20:	jeq #0x10, l21, l22
+l21:	ret #0x7fff0000
+l22:	jeq #0x3, l23, l24
+l23:	ret #0x7fff0000
+l24:	jeq #0xb, l25, l26
+l25:	ret #0x7fff0000
+l26:	jeq #0xa, l27, l28
+l27:	ret #0x7fff0000
+l28:	jeq #0x14, l29, l30
+l29:	ret #0x7fff0000
+l30:	jeq #0x38, l31, l32
+l31:	ret #0x7fff0000
+l32:	jeq #0xc, l33, l34
+l33:	ret #0x7fff0000
+l34:	jeq #0xcd, l35, l36
+l35:	ret #0x7fff0000
+l36:	jeq #0x27, l37, l38
+l37:	ret #0x7fff0000
+l38:	jeq #0xba, l39, l40
+l39:	ret #0x7fff0000
+l40:	jeq #0x62, l41, l42
+l41:	ret #0x7fff0000
+l42:	jeq #0x1c, l43, l44
+l43:	ret #0x7fff0000
+l44:	jeq #0x20, l45, l46
+l45:	ret #0x7fff0000
+l46:	jeq #0x23, l47, l48
+l47:	ret #0x7fff0000
+l48:	jeq #0x7, l49, l50
+l49:	ret #0x7fff0000
+l50:	jeq #0x17, l51, l52
+l51:	ret #0x7fff0000
+l52:	jeq #0x66, l53, l54
+l53:	ret #0x7fff0000
+l54:	jeq #0x6b, l55, l56
+l55:	ret #0x7fff0000
+l56:	jeq #0xf, l57, l58
+l57:	ret #0x7fff0000
+l58:	jeq #0x48, l59, l60
+l59:	ret #0x7fff0000
+l60:	jeq #0x5, l61, l62
+l61:	ret #0x7fff0000
+l62:	jeq #0x4, l63, l64
+l63:	ret #0x7fff0000
+l64:	jeq #0x6, l65, l66
+l65:	ret #0x7fff0000
+l66:	jeq #0x35, l67, l68
+l67:	ret #0x7fff0000
+l68:	jeq #0x29, l69, l70
+l69:	ret #0x5000d
+l70:	jeq #0x2, l71, l72
+l71:	ret #0x7fff0000
+l72:	jeq #0x59, l73, l74
+l73:	ret #0x7fff0000
+l74:	jeq #0x9d, l75, l76
+l75:	ret #0x7fff0000
+l76:	jeq #0x15, l77, l78
+l77:	ret #0x7fff0000
+l78:	jeq #0x57, l79, l80
+l79:	ret #0x7fff0000
+l80:	jeq #0x4a, l81, l82
+l81:	ret #0x7fff0000
+l82:	jeq #0x1a, l83, l84
+l83:	ret #0x7fff0000
+l84:	jeq #0x8c, l85, l86
+l85:	ret #0x7fff0000
+l86:	jeq #0x93, l87, l88
+l87:	ret #0x7fff0000
+l88:	jeq #0x92, l89, l90
+l89:	ret #0x7fff0000
+l90:	jeq #0x8d, l91, l92
+l91:	ret #0x7fff0000
+l92:	jeq #0xe, l93, l94
+l93:	ret #0x7fff0000
+l94:	jeq #0xd, l95, l96
+l95:	ret #0x7fff0000
+l96:	jeq #0xdb, l97, l98
+l97:	ret #0x7fff0000
+l98:	jeq #0x4, l99, l100
+l99:	ret #0x7fff0000
+l100:	jeq #0x4e, l101, l102
+l101:	ret #0x7fff0000
+l102:	jeq #0x6, l103, l104
+l103:	ret #0x7fff0000
+l104:	jeq #0x9, l105, l106
+l105:	ret #0x7fff0000
+l106:	jeq #0x101, l107, l108
+l107:	ret #0x7fff0000
+l108:	jeq #0x48, l109, l110
+l109:	ret #0x7fff0000
+l110:	jeq #0x5, l111, l112
+l111:	ret #0x7fff0000
+l112:	jeq #0x59, l113, l114
+l113:	ret #0x7fff0000
+l114:	jeq #0x33, l115, l116
+l115:	ret #0x7fff0000
+l116:	jeq #0x66, l117, l118
+l117:	ret #0x7fff0000
+l118:	jeq #0x6b, l119, l120
+l119:	ret #0x7fff0000
+l120:	jeq #0x53, l121, l122
+l121:	ret #0x7fff0000
+l122:	jeq #0x4f, l123, l124
+l123:	ret #0x7fff0000
+l124:	jeq #0xbb, l125, l126
+l125:	ret #0x7fff0000
+l126:	jeq #0x11, l127, l128
+l127:	ret #0x7fff0000
+l128:	jeq #0x89, l129, l130
+l129:	ret #0x7fff0000
+l130:	jeq #0x16, l131, l132
+l131:	ret #0x7fff0000
+l132:	jeq #0x61, l133, l134
+l133:	ret #0x7fff0000
+l134:	jeq #0x30, l135, l136
+l135:	ret #0x7fff0000
+l136:	jeq #0x34, l137, l138
+l137:	ret #0x7fff0000
+l138:	jeq #0x122, l139, l140
+l139:	ret #0x7fff0000
+l140:	jeq #0xe5, l141, l142
+l141:	ret #0x7fff0000
+l142:	jeq #0x63, l143, l144
+l143:	ret #0x7fff0000
+l144:	jeq #0x76, l145, l146
+l145:	ret #0x7fff0000
+l146:	jeq #0x5f, l147, l148
+l147:	ret #0x7fff0000
+l148:	jeq #0x78, l149, l150
+l149:	ret #0x7fff0000
+l150:	jeq #0x7, l151, l152
+l151:	ret #0x7fff0000
+l152:	jeq #0x6c, l153, l154
+l153:	ret #0x7fff0000
+l154:	jeq #0x126, l155, l156
+l155:	ret #0x7fff0000
+l156:	jeq #0x3d, l157, l158
+l157:	ret #0x7fff0000
+l158:	jeq #0x1f, l159, l160
+l159:	ret #0x7fff0000
+l160:	jeq #0x111, l161, l162
+l161:	ret #0x7fff0000
+l162:	jeq #0x54, l163, l164
+l163:	ret #0x7fff0000
+l164:	jeq #0x2d, l165, l166
+l165:	ret #0x7fff0000
+l166:	jeq #0x43, l167, l168
+l167:	ret #0x7fff0000
+l168:	jeq #0x125, l169, l170
+l169:	ret #0x7fff0000
+l170:	jeq #0x36, l171, l172
+l171:	ret #0x7fff0000
+l172:	jeq #0x1e, l173, l174
+l173:	ret #0x7fff0000
+l174:	jeq #0xda, l175, l176
+l175:	ret #0x7fff0000
+l176:	jeq #0xfe, l177, l178
+l177:	ret #0x7fff0000
+l178:	jeq #0xe, l179, l180
+l179:	ret #0x7fff0000
+l180:	jeq #0x1d, l181, l182
+l181:	ret #0x7fff0000
+l182:	jeq #0x68, l183, l184
+l183:	ret #0x7fff0000
+l184:	jeq #0x84, l185, l186
+l185:	ret #0x7fff0000
+l186:	jeq #0x9e, l187, l188
+l187:	ret #0x7fff0000
+l188:	jeq #0xcc, l189, l190
+l189:	ret #0x7fff0000
+l190:	jeq #0x29, l191, l192
+l191:	ret #0x7fff0000
+l192:	jeq #0x5a, l193, l194
+l193:	ret #0x7fff0000
+l194:	jeq #0x3b, l195, l196
+l195:	ret #0x7fff0000
+l196:	jeq #0x52, l197, l198
+l197:	ret #0x7fff0000
+l198:	jeq #0x58, l199, l200
+l199:	ret #0x7fff0000
+l200:	jeq #0x2a, l201, l202
+l201:	ret #0x7fff0000
+l202:	jeq #0xb3, l203, l204
+l203:	ret #0x7fff0000
+l204:	jeq #0x3e, l205, l206
+l205:	ret #0x7fff0000
+l206:	jeq #0x2c, l207, l208
+l207:	ret #0x7fff0000
+l208:	jeq #0x3f, l209, l210
+l209:	ret #0x7fff0000
+l210:	jeq #0xe7, l211, l212
+l211:	ret #0x7fff0000
+l212:	jeq #0x3c, l213, l214
+l213:	ret #0x7fff0000
+l214:	ret #0

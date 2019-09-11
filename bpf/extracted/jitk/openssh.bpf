@@ -1,0 +1,39 @@
+l0:	ld [4]
+l1:	jeq #0xc000003e, l3, l2
+l2:	ret #0
+l3:	ld [0]
+l4:	jeq #0x2, l5, l6
+l5:	ret #0x5000d
+l6:	jeq #0x27, l7, l8
+l7:	ret #0x7fff0000
+l8:	jeq #0x60, l9, l10
+l9:	ret #0x7fff0000
+l10:	jeq #0xe4, l11, l12
+l11:	ret #0x7fff0000
+l12:	jeq #0xc9, l13, l14
+l13:	ret #0x7fff0000
+l14:	jeq #0, l15, l16
+l15:	ret #0x7fff0000
+l16:	jeq #0x1, l17, l18
+l17:	ret #0x7fff0000
+l18:	jeq #0x3, l19, l20
+l19:	ret #0x7fff0000
+l20:	jeq #0x30, l21, l22
+l21:	ret #0x7fff0000
+l22:	jeq #0xc, l23, l24
+l23:	ret #0x7fff0000
+l24:	jeq #0x7, l25, l26
+l25:	ret #0x7fff0000
+l26:	jeq #0x17, l27, l28
+l27:	ret #0x7fff0000
+l28:	jeq #0x1c, l29, l30
+l29:	ret #0x7fff0000
+l30:	jeq #0x9, l31, l32
+l31:	ret #0x7fff0000
+l32:	jeq #0xb, l33, l34
+l33:	ret #0x7fff0000
+l34:	jeq #0xe7, l35, l36
+l35:	ret #0x7fff0000
+l36:	jeq #0xe, l37, l38
+l37:	ret #0x7fff0000
+l38:	ret #0

@@ -1,0 +1,20 @@
+FROM ubuntu:19.04
+
+RUN apt-get update && apt-get install -y \
+    clang \
+    g++ \
+    gcc \
+    gcc-riscv64-linux-gnu \
+    git \
+    llvm \
+    make \
+    racket \
+ && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /code
+RUN git clone https://github.com/emina/rosette.git && cd rosette && raco pkg install --auto -i
+
+ADD . /code/riscvisor
+WORKDIR /code/riscvisor
+RUN make distclean && make o.riscv64/racket/llvm-rosette/llvm-rosette
+ENTRYPOINT ["racket", "racket/bin/serval"]

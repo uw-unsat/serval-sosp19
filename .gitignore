@@ -1,0 +1,11 @@
+*~
+*.d
+__pycache__
+compiled
+/.vscode
+/local.mk
+/o.*
+.codemod.bookmark
+*.pyc
+.DS_Store
+.gdbinit

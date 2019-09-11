@@ -1,0 +1,11 @@
+.ebpf_dump.ko.cmd
+.ebpf_dump.mod.o.cmd
+.ebpf_dump.o.cmd
+.tmp_versions/
+Module.symvers
+ebpf_dump.ko
+ebpf_dump.mod.c
+ebpf_dump.mod.o
+ebpf_dump.o
+ebpf_dump.o.ur-safe
+modules.order

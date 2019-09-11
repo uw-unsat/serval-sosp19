@@ -1,0 +1,268 @@
+l0:	ld [4]
+l1:	jeq #0xc000003e, l2, l103
+l2:	ld [0]
+l3:	jset #0x40000000, l4, l5
+l4:	ret #0x30007
+l5:	jge #0x77, l6, l48
+l6:	jge #0xd9, l7, l24
+l7:	jge #0x10e, l8, l12
+l8:	jge #0x11e, l9, l42
+l9:	jge #0x123, l10, l40
+l10:	jge #0x12e, l11, l39
+l11:	jge #0x12f, l242, l265
+l12:	jge #0xe5, l13, l19
+l13:	jge #0xec, l14, l17
+l14:	jge #0xf8, l15, l16
+l15:	jge #0x101, l265, l242
+l16:	jge #0xf7, l250, l242
+l17:	jge #0xe7, l18, l242
+l18:	jge #0xeb, l265, l250
+l19:	jge #0xdc, l20, l22
+l20:	jge #0xdd, l21, l265
+l21:	jge #0xe4, l250, l242
+l22:	jge #0xda, l23, l265
+l23:	jge #0xdb, l250, l242
+l24:	jge #0x95, l25, l91
+l25:	jge #0xc8, l26, l32
+l26:	jge #0xcd, l27, l30
+l27:	jge #0xd5, l28, l29
+l28:	jge #0xd6, l242, l250
+l29:	jge #0xd4, l265, l242
+l30:	jge #0xcb, l31, l250
+l31:	jge #0xcc, l250, l242
+l32:	jge #0x9e, l33, l35
+l33:	jge #0xba, l34, l242
+l34:	jge #0xbb, l242, l250
+l35:	jge #0x97, l36, l250
+l36:	jge #0x9d, l37, l242
+l37:	ld [20]
+l38:	jeq #0, l74, l71
+l39:	jge #0x126, l242, l250
+l40:	jge #0x120, l41, l242
+l41:	jge #0x121, l242, l265
+l42:	jge #0x113, l43, l46
+l43:	jge #0x119, l44, l45
+l44:	jge #0x11d, l265, l242
+l45:	jge #0x118, l265, l242
+l46:	jge #0x110, l47, l250
+l47:	jge #0x111, l250, l242
+l48:	jge #0x38, l49, l104
+l49:	jge #0x63, l50, l62
+l50:	jge #0x6b, l51, l57
+l51:	jge #0x6f, l52, l55
+l52:	jge #0x74, l53, l54
+l53:	jge #0x76, l250, l242
+l54:	jge #0x73, l250, l242
+l55:	jge #0x6d, l56, l250
+l56:	jge #0x6e, l250, l242
+l57:	jge #0x67, l58, l60
+l58:	jge #0x68, l59, l242
+l59:	jge #0x69, l242, l250
+l60:	jge #0x65, l61, l250
+l61:	jge #0x66, l250, l242
+l62:	jge #0x44, l63, l237
+l63:	jge #0x4a, l64, l67
+l64:	jge #0x60, l65, l66
+l65:	jge #0x62, l242, l250
+l66:	jge #0x4c, l265, l250
+l67:	jge #0x48, l68, l265
+l68:	jge #0x49, l242, l69
+l69:	ld [28]
+l70:	jeq #0, l175, l172
+l71:	jeq #0xffffffff, l72, l267
+l72:	ld [16]
+l73:	jge #0x80000000, l74, l267
+l74:	ld [16]
+l75:	jeq #0xf, l250, l76
+l76:	ld [20]
+l77:	jeq #0, l81, l78
+l78:	jeq #0xffffffff, l79, l267
+l79:	ld [16]
+l80:	jge #0x80000000, l81, l267
+l81:	ld [16]
+l82:	jeq #0x4, l250, l83
+l83:	ld [20]
+l84:	jeq #0, l88, l85
+l85:	jeq #0xffffffff, l86, l267
+l86:	ld [16]
+l87:	jge #0x80000000, l88, l267
+l88:	ld [16]
+l89:	jeq #0x3, l250, l90
+l90:	ret #0x30005
+l91:	jge #0x87, l92, l98
+l92:	jge #0x8c, l93, l96
+l93:	jge #0x8f, l94, l95
+l94:	jge #0x94, l242, l250
+l95:	jge #0x8e, l242, l250
+l96:	jge #0x88, l97, l242
+l97:	jge #0x8a, l242, l265
+l98:	jge #0x7c, l99, l101
+l99:	jge #0x7e, l100, l250
+l100:	jge #0x84, l265, l242
+l101:	jge #0x78, l102, l242
+l102:	jge #0x79, l242, l250
+l103:	ret #0x30002
+l104:	jge #0x16, l105, l109
+l105:	jge #0x28, l106, l160
+l106:	jge #0x31, l107, l158
+l107:	jge #0x35, l108, l157
+l108:	jge #0x36, l242, l150
+l109:	jge #0x7, l110, l113
+l110:	jge #0xb, l111, l134
+l111:	jge #0x11, l112, l118
+l112:	jge #0x15, l265, l250
+l113:	jge #0x4, l114, l116
+l114:	jge #0x5, l115, l265
+l115:	jge #0x6, l265, l250
+l116:	jge #0x2, l117, l250
+l117:	jge #0x3, l250, l265
+l118:	jge #0x10, l119, l250
+l119:	ld [28]
+l120:	jeq #0, l124, l121
+l121:	jeq #0xffffffff, l122, l267
+l122:	ld [24]
+l123:	jge #0x80000000, l124, l267
+l124:	ld [24]
+l125:	jeq #0x5401, l250, l126
+l126:	ld [28]
+l127:	jeq #0, l131, l128
+l128:	jeq #0xffffffff, l129, l267
+l129:	ld [24]
+l130:	jge #0x80000000, l131, l267
+l131:	ld [24]
+l132:	jeq #0x541b, l250, l133
+l133:	ret #0x30003
+l134:	jge #0x9, l135, l250
+l135:	jge #0xa, l136, l143
+l136:	ld [36]
+l137:	jeq #0, l141, l138
+l138:	jeq #0xffffffff, l139, l267
+l139:	ld [32]
+l140:	jge #0x80000000, l141, l267
+l141:	ld [32]
+l142:	jset #0xfffffff8, l242, l250
+l143:	ld [44]
+l144:	jeq #0, l148, l145
+l145:	jeq #0xffffffff, l146, l267
+l146:	ld [40]
+l147:	jge #0x80000000, l148, l267
+l148:	ld [40]
+l149:	jset #0xfffdb7cc, l242, l250
+l150:	ld [20]
+l151:	jeq #0, l155, l152
+l152:	jeq #0xffffffff, l153, l267
+l153:	ld [16]
+l154:	jge #0x80000000, l155, l267
+l155:	ld [16]
+l156:	jeq #0x1, l250, l242
+l157:	jge #0x33, l242, l265
+l158:	jge #0x29, l159, l242
+l159:	jge #0x2c, l250, l265
+l160:	jge #0x1d, l161, l163
+l161:	jge #0x24, l162, l250
+l162:	jge #0x27, l250, l242
+l163:	jge #0x1a, l164, l250
+l164:	jge #0x1c, l165, l242
+l165:	ld [36]
+l166:	jeq #0, l170, l167
+l167:	jeq #0xffffffff, l168, l267
+l168:	ld [32]
+l169:	jge #0x80000000, l170, l267
+l170:	ld [32]
+l171:	jeq #0x4, l250, l265
+l172:	jeq #0xffffffff, l173, l267
+l173:	ld [24]
+l174:	jge #0x80000000, l175, l267
+l175:	ld [24]
+l176:	jeq #0x3, l250, l177
+l177:	ld [28]
+l178:	jeq #0, l182, l179
+l179:	jeq #0xffffffff, l180, l267
+l180:	ld [24]
+l181:	jge #0x80000000, l182, l267
+l182:	ld [24]
+l183:	jeq #0x4, l184, l188
+l184:	ld [36]
+l185:	jset #0xffffffff, l242, l186
+l186:	ld [32]
+l187:	jset #0xffe363fc, l242, l250
+l188:	ld [28]
+l189:	jeq #0, l193, l190
+l190:	jeq #0xffffffff, l191, l267
+l191:	ld [24]
+l192:	jge #0x80000000, l193, l267
+l193:	ld [24]
+l194:	jeq #0x1, l250, l195
+l195:	ld [28]
+l196:	jeq #0, l200, l197
+l197:	jeq #0xffffffff, l198, l267
+l198:	ld [24]
+l199:	jge #0x80000000, l200, l267
+l200:	ld [24]
+l201:	jeq #0x2, l250, l202
+l202:	ld [28]
+l203:	jeq #0, l207, l204
+l204:	jeq #0xffffffff, l205, l267
+l205:	ld [24]
+l206:	jge #0x80000000, l207, l267
+l207:	ld [24]
+l208:	jeq #0, l250, l209
+l209:	ld [28]
+l210:	jeq #0, l214, l211
+l211:	jeq #0xffffffff, l212, l267
+l212:	ld [24]
+l213:	jge #0x80000000, l214, l267
+l214:	ld [24]
+l215:	jeq #0x6, l250, l216
+l216:	ld [28]
+l217:	jeq #0, l221, l218
+l218:	jeq #0xffffffff, l219, l267
+l219:	ld [24]
+l220:	jge #0x80000000, l221, l267
+l221:	ld [24]
+l222:	jeq #0x7, l250, l223
+l223:	ld [28]
+l224:	jeq #0, l228, l225
+l225:	jeq #0xffffffff, l226, l267
+l226:	ld [24]
+l227:	jge #0x80000000, l228, l267
+l228:	ld [24]
+l229:	jeq #0x5, l250, l230
+l230:	ld [28]
+l231:	jeq #0, l235, l232
+l232:	jeq #0xffffffff, l233, l267
+l233:	ld [24]
+l234:	jge #0x80000000, l235, l267
+l235:	ld [24]
+l236:	jeq #0x406, l250, l242
+l237:	jge #0x3c, l238, l240
+l238:	jge #0x40, l239, l250
+l239:	jge #0x43, l250, l265
+l240:	jge #0x39, l241, l243
+l241:	jge #0x3b, l265, l242
+l242:	ret #0x30001
+l243:	ld [20]
+l244:	jeq #0, l248, l245
+l245:	jeq #0xffffffff, l246, l267
+l246:	ld [16]
+l247:	jge #0x80000000, l248, l267
+l248:	ld [16]
+l249:	jeq #0x3d0f00, l250, l251
+l250:	ret #0x7fff0000
+l251:	ld [20]
+l252:	jeq #0, l256, l253
+l253:	jeq #0xffffffff, l254, l267
+l254:	ld [16]
+l255:	jge #0x80000000, l256, l267
+l256:	ld [16]
+l257:	jeq #0x100011, l265, l258
+l258:	ld [20]
+l259:	jeq #0, l263, l260
+l260:	jeq #0xffffffff, l261, l267
+l261:	ld [16]
+l262:	jge #0x80000000, l263, l267
+l263:	ld [16]
+l264:	jeq #0x1200011, l265, l266
+l265:	ret #0x50001
+l266:	ret #0x30004
+l267:	ret #0x30006

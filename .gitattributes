@@ -1,0 +1,5 @@
+.gitignore export-ignore
+.gitattributes export-ignore
+.gitlab-ci.yml export-ignore
+o.riscv64/** export-ignore
+.dockerignore export-ignore

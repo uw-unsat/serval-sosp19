@@ -1,0 +1,72 @@
+l0:	ld [4]
+l1:	jeq #0xc000003e, l3, l2
+l2:	ret #0
+l3:	ld [0]
+l4:	jeq #0, l5, l6
+l5:	ret #0x7fff0000
+l6:	jeq #0x1, l7, l8
+l7:	ret #0x7fff0000
+l8:	jeq #0x9, l9, l15
+l9:	ld [40]
+l10:	jeq #0x22, l11, l14
+l11:	ld [32]
+l12:	jeq #0x3, l13, l14
+l13:	ret #0x7fff0000
+l14:	ld [0]
+l15:	jeq #0xa, l16, l20
+l16:	ld [32]
+l17:	jset #0xfffffffe, l19, l18
+l18:	ret #0x7fff0000
+l19:	ld [0]
+l20:	jeq #0xb, l21, l22
+l21:	ret #0x7fff0000
+l22:	jeq #0xc, l23, l24
+l23:	ret #0x7fff0000
+l24:	jeq #0x19, l25, l26
+l25:	ret #0x50026
+l26:	jeq #0xf, l27, l28
+l27:	ret #0x7fff0000
+l28:	jeq #0xdb, l29, l30
+l29:	ret #0x7fff0000
+l30:	jeq #0x3, l31, l32
+l31:	ret #0x7fff0000
+l32:	jeq #0xe7, l33, l34
+l33:	ret #0x7fff0000
+l34:	jeq #0x2d, l35, l39
+l35:	ld [40]
+l36:	jeq #0x2, l37, l38
+l37:	ret #0x7fff0000
+l38:	ld [0]
+l39:	jeq #0x23, l40, l41
+l40:	ret #0x7fff0000
+l41:	jeq #0x27, l42, l43
+l42:	ret #0x7fff0000
+l43:	jeq #0x30, l44, l45
+l44:	ret #0x7fff0000
+l45:	jeq #0x48, l46, l50
+l46:	ld [24]
+l47:	jeq #0x3, l48, l49
+l48:	ret #0x7fff0000
+l49:	ld [0]
+l50:	jeq #0x48, l51, l57
+l51:	ld [24]
+l52:	jeq #0x4, l53, l56
+l53:	ld [32]
+l54:	jset #0xfff6733c, l56, l55
+l55:	ret #0x7fff0000
+l56:	ld [0]
+l57:	jeq #0xd, l58, l59
+l58:	ret #0x7fff0000
+l59:	jeq #0x25, l60, l61
+l60:	ret #0x7fff0000
+l61:	jeq #0x48, l62, l66
+l62:	ld [24]
+l63:	jeq #0x7, l64, l65
+l64:	ret #0x7fff0000
+l65:	ld [0]
+l66:	jeq #0x48, l67, l71
+l67:	ld [24]
+l68:	jeq #0x6, l69, l70
+l69:	ret #0x7fff0000
+l70:	ld [0]
+l71:	ret #0
